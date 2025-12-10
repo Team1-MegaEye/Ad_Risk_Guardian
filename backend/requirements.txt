@@ -1,0 +1,24 @@
+# FastAPI
+fastapi==0.124.0
+uvicorn==0.38.0
+pydantic==2.12.4
+
+# Celery + Redis
+celery==5.5.3
+redis==7.1.0
+
+# ML / Deepfake / Transformer
+torch==2.2.2
+torchvision==0.17.2
+facenet-pytorch==2.6.0
+transformers==4.57.3
+safetensors==0.7.0
+numpy==1.26.4
+
+# Video / Audio processing
+opencv-python==4.10.0.84
+openai==2.9.0
+pillow==10.2.0
+yt-dlp==2025.11.12
+imageio-ffmpeg==0.6.0
+moviepy==2.2.1
