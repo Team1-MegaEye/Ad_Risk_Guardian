@@ -61,16 +61,15 @@ Ad_Risk_Guardian/
 │   └── 📁 systemization # 딥페이크 및 과장광고 탐지 통합 시스템
 │   ├── 📁 video
 │   │   ├── 📁 __pycache__
-│   │   ├── 📁 env
+│   │   ├── 📁 requirements # collect.py, eda.py, modeling.py -> requirements / preprocessing.py -> requirements_preprocess
 │   │   ├── 📁 experiments # 시행착오
 │   │   ├── collect.py # 데이터수집
 │   │   ├── eda.py # EDA
-│   │   ├── preprocessing.py # 전처리
-│   │   ├── modeling.py # 모델링
-│   │   └── requirements.txt
+│   │   ├── preprocessing.py # 전처리 
+│   │   └── modeling.py # 모델링
 │   └── 📁 text
 │   │   ├── 📁 data # 데이터셋
-│   │   ├──  📁 experiments # 시행착오
+│   │   ├── 📁 experiments # 시행착오
 │   │   ├──  collect.ipynb # 데이터수집
 │   │   ├──  eda.ipynb # EDA
 │   │   ├──  preprocessing.ipynb # 전처리
