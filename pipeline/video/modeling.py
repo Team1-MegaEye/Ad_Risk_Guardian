@@ -61,7 +61,7 @@ import optuna
 #   - DATA_ROOT/train : "학습(Train)"에만 사용
 #   - DATA_ROOT/test  : "검증(Validation)" 용도로 사용 (이 스크립트에서의 VAL_ROOT)
 DATA_ROOT = Path(
-    r"C:\user\Processed_data"
+    r"D:\deoha\Documents\video_proj\data\Processed_data"
 )  # 입력 경로 설정
 
 # 학습용(Train) 시퀀스가 들어 있는 폴더
