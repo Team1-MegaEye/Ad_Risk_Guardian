@@ -119,15 +119,15 @@ def make_unique(dst: Path) -> Path:
 
 CONFIG_FFPP = {
     # gender 폴더 (Man / Woman 하위에 ID별 mp4)
-    "gender_root": Path(r"D:\deoha\Documents\video_proj\Dataset\FaceForensics++_C23\gender"),  # 입력 경로 설정 
+    "gender_root": Path(r"C:\Video_Dataset\original_data\FaceForensics++_C23\gender"),  # 입력 경로 설정 
 
     # DeepFake_Root (original + 변조 5종)
-    "deepfake_root": Path(r"D:\deoha\Documents\video_proj\Dataset\FaceForensics++_C23\DeepFake_Root"),  # 입력 경로 설정
+    "deepfake_root": Path(r"C:\Video_Dataset\original_data\FaceForensics++_C23\DeepFake_Root"),  # 입력 경로 설정
     "original_dirname": "original",
     "fake_dirnames": ["Deepfakes", "Face2Face", "FaceShifter", "FaceSwap", "NeuralTextures"],
 
     # 출력 폴더
-    "output_root": Path(r"D:\deoha\Documents\video_proj\Dataset\FaceForensics++_C23\split_300_8_2"),  # 출력 경로 설정 
+    "output_root": Path(r"C:\Video_Dataset\original_data\FaceForensics++_C23\split_300_8_2"),  # 출력 경로 설정 
 
     # Target total number of video files (train + test, real + fake)
     "total_files": 270,   # each ID → (real, fake) = 2 files
@@ -384,28 +384,28 @@ def split_faceforensics() -> None:
 
 CONFIG_KODF = {
     # 원본 폴더
-    "original_root": Path(r"D:\deoha\Documents\3_kind_Dataset\딥페이크 변조 영상\1.Training\[원천][원본]원본1"),  #  입력 경로 설정
+    "original_root": Path(r"C:\Video_Dataset\original_data\KoDF\1.Training\[원천][원본]원본1"),  #  입력 경로 설정
 
     # 변조 폴더들 (여러 개)
     "others_roots": [
-        Path(r"D:\deoha\Documents\3_kind_Dataset\딥페이크 변조 영상\1.Training\[원천][변조]train_dffs1_data"),  #  입력 경로 설정
-        Path(r"D:\deoha\Documents\3_kind_Dataset\딥페이크 변조 영상\1.Training\[원천][변조]train_dfl1_data"),   #  입력 경로 설정
-        Path(r"D:\deoha\Documents\3_kind_Dataset\딥페이크 변조 영상\1.Training\[원천][변조]train_fo1_data"),    #  입력 경로 설정
-        Path(r"D:\deoha\Documents\3_kind_Dataset\딥페이크 변조 영상\1.Training\[원천][변조]train_fsgan1_data"), #  입력 경로 설정
-        Path(r"D:\deoha\Documents\3_kind_Dataset\딥페이크 변조 영상\1.Training\[원천][변조]audio_driven1"),     #  입력 경로 설정
+        Path(r"C:\Video_Dataset\original_data\KoDF\1.Training\[원천][변조]train_dffs1_data"),  #  입력 경로 설정
+        Path(r"C:\Video_Dataset\original_data\KoDF\1.Training\[원천][변조]train_dfl1_data"),   #  입력 경로 설정
+        Path(r"C:\Video_Dataset\original_data\KoDF\1.Training\[원천][변조]train_fo1_data"),    #  입력 경로 설정
+        Path(r"C:\Video_Dataset\original_data\KoDF\1.Training\[원천][변조]train_fsgan1_data"), #  입력 경로 설정
+        Path(r"C:\Video_Dataset\original_data\KoDF\1.Training\[원천][변조]audio_driven1"),     #  입력 경로 설정
     ],
 
     # 메타데이터 (원본/변조)
     "metadata_csv_original": Path(
-        r"D:\deoha\Documents\3_kind_Dataset\딥페이크 변조 영상\1.Training\[라벨링]train_meta\train_meta_data\원본영상_training_메타데이터.csv"
+        r"C:\Video_Dataset\original_data\KoDF\1.Training\[라벨링]train_meta\train_meta_data\원본영상_training_메타데이터.csv"
     ),
     "metadata_csv_fake": Path(
-        r"D:\deoha\Documents\3_kind_Dataset\딥페이크 변조 영상\1.Training\[라벨링]train_meta\train_meta_data\변조영상_training_메타데이터.csv"
+        r"C:\Video_Dataset\original_data\KoDF\1.Training\[라벨링]train_meta\train_meta_data\변조영상_training_메타데이터.csv"
     ),  
 
     # KoDF 출력 폴더 (영상만 복사)
     "output_root": Path(
-        r"D:\deoha\Documents\3_kind_Dataset\딥페이크 변조 영상\split_kodf_700_8_2"
+        r"C:\Video_Dataset\original_data\KoDF\split_kodf_700_8_2"
     ),  # 출력 경로 설정
 
     # Target total number of videos (original + fake)
@@ -1052,7 +1052,7 @@ if __name__ == "__main__":
     # 3) Collect all split videos and extract 10 frames per video for detection
     all_videos = collect_all_videos_for_analysis([ffpp_out, kodf_out])
 
-    FRAMES_ROOT = Path(r"D:\deoha\Documents\3_kind_Dataset\frames_for_detection")
+    FRAMES_ROOT = Path(r"C:\Video_Dataset\original_data\KoDF\frames_for_detection")  #출력 경로 설정
     extract_frames_for_detection(
         all_videos,
         frames_root=FRAMES_ROOT,

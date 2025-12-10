@@ -30,7 +30,7 @@ import pandas as pd
 # 1. Path Configs (EDIT THIS FOR YOUR FOLDER!!)
 # =============================================================
 
-DATA_ROOT = Path(r"C:\user\Processed_data")  # 입력 경로 설정
+DATA_ROOT = Path(r"C:\Video_Dataset\Processed_data")  # 입력 경로 설정
 
 TRAIN_ROOT = DATA_ROOT / "train"
 TEST_ROOT  = DATA_ROOT / "test"

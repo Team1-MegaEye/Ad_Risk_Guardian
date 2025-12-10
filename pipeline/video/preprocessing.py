@@ -119,13 +119,13 @@ from sklearn.manifold import TSNE
 # ============================================================
 
 # 입력 루트: 비디오별로 프레임(예: N장) 추출이 끝난 폴더 구조
-IN_ROOT = Path(r"C:\User\video_proj\Input_video")  # 입력 경로 설정
+IN_ROOT = Path(r"C:\Video_Dataset\Input_data")  # 입력 경로 설정
 
 # 출력 루트: 얼굴 크롭/정규화/증강 결과를 저장할 폴더
-OUT_ROOT = Path(r"C:\User\video_proj\Ouput_video")  # 출력 경로 설정
+OUT_ROOT = Path(r"C:\Video_Dataset\Ouput_data")  # 출력 경로 설정
 
 # 분석 결과(PCA / t-SNE) 저장 루트
-AN_OUT = Path(r"C:\User\video_proj\Ouput_video")  # 시각화 파일 출력 경로 설정
+AN_OUT = Path(r"C:\Video_Dataset\Ouput_data")  # 시각화 파일 출력 경로 설정
 
 # 사용할 프레임 수 (앞에서부터 MAX_FRAMES장만 사용)
 MAX_FRAMES = 10

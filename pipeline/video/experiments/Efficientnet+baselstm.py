@@ -1,16 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 28 10:19:18 2025
 
-@author: deoha
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 28 09:58:38 2025
-
-@author: deoha
-"""
 
 # =============================================================
 # 0. Environment Setup
@@ -44,7 +33,7 @@ import pandas as pd
 
 
 # ★★★ 스파이더(로컬)용 예시 경로 (원하는 폴더로 수정하세요) ★★★
-DATA_ROOT = Path(r"C:\user\Processed_data")  # 입력 경로 설정
+DATA_ROOT = Path(r"C:\Video_Dataset\Processed_data")  # 입력 경로 설정
 
 TRAIN_ROOT = DATA_ROOT / "train"
 TEST_ROOT  = DATA_ROOT / "test"

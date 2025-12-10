@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Dec 10 08:13:05 2025
 
-@author: deoha
-"""
 
 import os
 import random
@@ -28,7 +24,7 @@ import pandas as pd
 # =============================================================
 # 1. Path Configs (로컬 경로로 수정해서 사용)
 # ======================================== 
-DATA_ROOT = Path(r"C:\user\Processed_data")  # 입력 경로설정
+DATA_ROOT = Path(r"C:\Video_Dataset\Processed_data")  # 입력 경로설정
 
 TRAIN_ROOT = DATA_ROOT / "train"
 TEST_ROOT  = DATA_ROOT / "test"

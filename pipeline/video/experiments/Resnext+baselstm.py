@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 28 01:42:42 2025
-
-@author: deoha
-"""
 
 """
 ResNeXt50 + LSTM 기반 딥페이크 시퀀스 이진 분류 스크립트
@@ -47,7 +42,7 @@ import pandas as pd
 # 1. Path Configs (EDIT THIS FOR YOUR FOLDER!!)
 # =============================================================
 
-DATA_ROOT = Path(r"C:\user\Processed_data")  # 입력 경로 설정
+DATA_ROOT = Path(r"C:\Video_Dataset\Processed_data")  # 입력 경로 설정
 
 TRAIN_ROOT = DATA_ROOT / "train"
 TEST_ROOT  = DATA_ROOT / "test"

@@ -51,7 +51,7 @@ from tqdm import tqdm  # 진행바
 # =============================================================
 
 # ★★★ 반드시 본인 로컬 경로로 수정 ★★★
-DATA_ROOT = Path(r"C:\user\Processed_data")  # 입력 경로 설정 
+DATA_ROOT = Path(r"C:\Video_Dataset\Processed_data")  # 입력 경로 설정 
 
 TRAIN_ROOT = DATA_ROOT / "train"
 TEST_ROOT  = DATA_ROOT / "test"
