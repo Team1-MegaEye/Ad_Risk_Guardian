@@ -52,8 +52,9 @@ Ad Risk Guardian은 온라인 플랫폼 환경에서 딥페이크 영상과 과�
 
 ## 프로젝트 구조
 ```
-AdRiskGuardian/
-├── 📁 train
+Ad_Risk_Guardian/
+├── 📁 pipeline
+│   └── 📁 systemization # 딥페이크 및 과장광고 탐지 통합 시스템
 │   ├── 📁 video
 │   │   ├── 📁 __pycache__
 │   │   ├── 📁 experiments # 시행착오
@@ -63,14 +64,13 @@ AdRiskGuardian/
 │   │   ├── preprocessing.py # 전처리
 │   │   └── modeling.py # 모델링
 │   └── 📁 text
-│       ├── 📁 data # 데이터셋
-│       ├── 📁 experiments # 시행착오
-│       ├── collect.ipynb # 데이터수집
-│       ├── eda.ipynb # EDA
-│       ├── preprocessing.ipynb # 전처리
-│       ├── modeling.ipynb # 모델링, 검증, 시각화
-│       ├── requirements.txt
-├── 📁 systemization # 딥페이크 및 과장광고 탐지 통합 시스템
+│   │   ├── 📁 data # 데이터셋
+│   │   ├──  📁 experiments # 시행착오
+│   │   ├──  collect.ipynb # 데이터수집
+│   │   ├──  eda.ipynb # EDA
+│   │   ├──  preprocessing.ipynb # 전처리
+│   │   ├──  modeling.ipynb # 모델링, 검증, 시각화
+│   │   ├──  requirements.txt
 ├─ 📁 backend # Fast API
 │   ├── 📁__pycache__
 │   ├── 📁 app # main.py, tasks.py, models.py, utils.py
