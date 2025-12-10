@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "Ad Risk Guardian",
+  "short_name": "AdRisk",
+  "version": "0.1.0",
+  "description": "YouTube 광고를 감지하고 딥페이크·과장광고 위험도를 분석해 경고를 표시합니다.",
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "action": {
+    "default_title": "광고 위험도 분석",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["js/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "notifications"
+  ],
+
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "http://127.0.0.1:8000/*"
+  ],
+
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' http://127.0.0.1:8000 https://*.youtube.com;"
+  },
+
+  "web_accessible_resources": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "resources": [
+        "images/siren-danger-48.png",
+        "images/*.png"
+      ]
+    }
+  ]
+}

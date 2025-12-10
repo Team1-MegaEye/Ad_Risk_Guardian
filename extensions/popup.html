@@ -1,0 +1,41 @@
+<!-- 분석 결과 팝업 HTML -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>광고 신뢰도 분석</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      width: 360px;
+      background: #f5f6fa;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    }
+    .popup-container {
+      padding: 16px;
+    }
+    #statusText {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="popup-container">
+    <div id="statusText">분석 결과를 불러오는 중...</div>
+
+    <div style="margin-top:10px;">
+      <strong>딥페이크 지표:</strong> <span id="videoScore">-</span><br/>
+      <strong>과장광고 지표:</strong> <span id="textScore">-</span><br/>
+      <strong>Late Fusion:</strong> <span id="finalScore">-</span><br/>
+      <strong>Label:</strong> <span id="labelVal">-</span>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
