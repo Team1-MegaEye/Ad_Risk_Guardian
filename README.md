@@ -104,8 +104,7 @@ Ad_Risk_Guardian/
 *  가중치 다운로드 링크   https://drive.google.com/drive/folders/1h_Lur4wJhcikdbL8YuFGBozlp4koktQG?usp=sharing
 
 #### 구축 환경
-- video - spyder<img width="407" height="124" alt="image" src="https://github.com/user-attachments/assets/6ba829f2-de29-4974-9988-de330617d5cc" />
-
+- video - spyder <img width="200" height="50" alt="image" src="https://github.com/user-attachments/assets/6ba829f2-de29-4974-9988-de330617d5cc" />
 - text - Google Colab
 - extensions/backend - VScode
 
