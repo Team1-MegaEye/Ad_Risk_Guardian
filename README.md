@@ -194,8 +194,4 @@ python run_all.py
 - Xu, Y., Liang, J., Jia, G., Yang, Z., Zhang, Y., & He, R. (2023). TALL: Thumbnail layout for deepfake video detection.
 - Mehzabin Pathan et al., (2024). Deepfake Detection Using Deep Learning: ResNext and LSTM
 - Anandgasivam et al., (2024). Enhancing Deepfake Detection Through Hybrid MobileNet-LSTM Model with Real-Time Image and Video Analysis
-
 - Shraddha Suratkar et al., (2022). Deep Fake Video Detection Using Transfer Learning Approach
-<img width="4714" height="626" alt="image" src="https://github.com/user-attachments/assets/a57095fe-561c-4528-bcdf-c77f376591ab" />
-
-
