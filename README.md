@@ -44,7 +44,7 @@ Ad Risk Guardian은 온라인 플랫폼 환경에서 딥페이크 영상과 과�
 ---
 
 ## 프로젝트 아키텍쳐
-<img width="3934" height="2073" alt="아키텍쳐" src="https://github.com/user-attachments/assets/994e6c87-ba65-41f3-aa04-65134fe33921" />
+<img width="3934" height="2073" alt="아키텍쳐" src="https://github.com/user-attachments/assets/5f0f2e7d-65d9-41ef-98b0-d780476881b9" />
 
 ---
 
