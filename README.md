@@ -92,7 +92,7 @@ Ad_Risk_Guardian/
 ```
 
 ### 참고 사항
-#### 텍스트 모델 
+#### text 
 *  pipeline/text/preprocessing.ipynb (Preview ERROR) ★ 로컬 환경에서는 정상적으로 실행됨
 *  가중치 다운로드 링크   https://drive.google.com/drive/folders/1h_Lur4wJhcikdbL8YuFGBozlp4koktQG?usp=sharing
 
