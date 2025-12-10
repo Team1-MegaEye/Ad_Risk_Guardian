@@ -12,9 +12,9 @@ Ad Risk Guardian은 온라인 플랫폼 환경에서 딥페이크 영상과 과�
 딥페이크 탐지 모델에 사용된 데이터셋은 AI HUB 딥페이크 변조 영상(KoDF) 데이터셋과 Kaggle FaceForensics++ 데이터셋을 7:3 비율로 혼합하여 사용하였습니다. 성별 균형(남:여 = 1:1)을 맞추고 이미지 크기를 256x256으로 통일하여 총 1500개의 학습 및 검증 데이터(학습:검증 = 8:2)를 구성하였습니다.
 
 - 🎬 Video dataset Link: https://drive.google.com/drive/folders/1rnOvxRjQ3p4_vX_QYE1YVgDgwjtzFIyz?usp=drive_link 
-    - original_data: 딥페이크 탐지 데이터셋 영상
-    - input_data: 공통 전처리 적용된 데이터셋
-    - processed_data: 증강까지 완료된 최종 프레임 데이터셋
+    - Original_data: 딥페이크 탐지 데이터셋 영상(KoDF/FaceForensics++)
+    - Input_data: 공통 전처리 적용된 데이터셋
+    - Processed_data: 증강까지 완료된 최종 프레임 데이터셋
 
 
 ## 주요 기능
