@@ -120,13 +120,18 @@ Ad_Risk_Guardian/
 - Docker Desktop 실행
 
 ### 2. VSCode 환경 설정
-1. Python 3.11 설치  
+1. Python 3.11 설치(필수)
 2. 가상환경 생성 및 활성화
 
 ```bash
 cd backend
 python -m venv venv
 .\venv\Scripts\activate     # Windows
+
+# Python 버전이 여러 개 설치된 경우
+cd backend
+py -3.11 -m venv .venv
+.venv\Scripts\Activate.ps1 
 ```
 
 3. 패키지 설치
