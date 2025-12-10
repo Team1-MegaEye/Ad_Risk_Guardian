@@ -13,7 +13,8 @@ Ad Risk Guardian은 온라인 플랫폼 환경에서 딥페이크 영상과 과�
 
 - 🎬 Video dataset Link: https://drive.google.com/drive/folders/1rnOvxRjQ3p4_vX_QYE1YVgDgwjtzFIyz?usp=drive_link 
     - original_data: 딥페이크 탐지 데이터셋 영상
-    - processed_data: 전처리가 완료된 프레임 데이터셋
+    - input_data: 공통 전처리 적용된 데이터셋
+    - processed_data: 증강까지 완료된 최종 프레임 데이터셋
 
 
 ## 주요 기능
