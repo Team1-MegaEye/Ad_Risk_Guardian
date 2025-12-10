@@ -11,7 +11,9 @@ Ad Risk Guardian은 온라인 플랫폼 환경에서 딥페이크 영상과 과�
 
 딥페이크 탐지 모델에 사용된 데이터셋은 AI HUB 딥페이크 변조 영상(KoDF) 데이터셋과 Kaggle FaceForensics++ 데이터셋을 7:3 비율로 혼합하여 사용하였습니다. 성별 균형(남:여 = 1:1)을 맞추고 이미지 크기를 256x256으로 통일하여 총 1500개의 학습 및 검증 데이터(학습:검증 = 8:2)를 구성하였습니다.
 
-- Video dataset Link: https://drive.google.com/drive/folders/1rnOvxRjQ3p4_vX_QYE1YVgDgwjtzFIyz?usp=drive_link
+- 🎬 Video dataset Link: https://drive.google.com/drive/folders/1rnOvxRjQ3p4_vX_QYE1YVgDgwjtzFIyz?usp=drive_link 
+    - original_data
+    - processed_data
 
 
 ## 주요 기능
@@ -58,12 +60,13 @@ Ad_Risk_Guardian/
 │   └── 📁 systemization # 딥페이크 및 과장광고 탐지 통합 시스템
 │   ├── 📁 video
 │   │   ├── 📁 __pycache__
+│   │   ├── 📁 env
 │   │   ├── 📁 experiments # 시행착오
-│   │   ├── 📁 requirements
 │   │   ├── collect.py # 데이터수집
 │   │   ├── eda.py # EDA
 │   │   ├── preprocessing.py # 전처리
-│   │   └── modeling.py # 모델링
+│   │   ├── modeling.py # 모델링
+│   │   └── requirements.txt
 │   └── 📁 text
 │   │   ├── 📁 data # 데이터셋
 │   │   ├──  📁 experiments # 시행착오
@@ -100,7 +103,7 @@ Ad_Risk_Guardian/
 *  pipeline/text/experiments/learning_rate(5e_4)_드롭아웃.ipynb★ 로컬 환경에서는 정상적으로 실행됨
 *  가중치 다운로드 링크   https://drive.google.com/drive/folders/1h_Lur4wJhcikdbL8YuFGBozlp4koktQG?usp=sharing
 
-#### 환경
+#### 구축 환경
 - video - spyder
 - text - Google Colab
 - extensions/backend - VScode
@@ -144,6 +147,8 @@ python run_all.py
 - 프로그램 실행
 
 ### 4. 광고 영상 시청
+- sample 광고 영상 링크
+    - 
 
 ---
 
