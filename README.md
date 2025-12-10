@@ -188,4 +188,14 @@ python run_all.py
 ---
 
 ## 참고문헌
-1.
+- KYang, K. (2021). Transformer-based Korean Pretrained Language Models: A Survey on Three Years of Progress. ArXiv, abs/2112.03014.
+- Han, Y.-H., Huang, T.-M., Hua, K.-L., & Chen, J.-C. (2024). Towards more general video-based deepfake detection through facial component guided adaptation for foundation model.
+- Nguyen, D., Astrid, M., Kacem, A., Ghorbel, E., & Aouada, D. (2025). Vulnerability-aware spatio-temporal learning for generalizable deepfake video detection.
+- Xu, Y., Liang, J., Jia, G., Yang, Z., Zhang, Y., & He, R. (2023). TALL: Thumbnail layout for deepfake video detection.
+- Mehzabin Pathan et al., (2024). Deepfake Detection Using Deep Learning: ResNext and LSTM
+- Anandgasivam et al., (2024). Enhancing Deepfake Detection Through Hybrid MobileNet-LSTM Model with Real-Time Image and Video Analysis
+
+- Shraddha Suratkar et al., (2022). Deep Fake Video Detection Using Transfer Learning Approach
+<img width="4714" height="626" alt="image" src="https://github.com/user-attachments/assets/a57095fe-561c-4528-bcdf-c77f376591ab" />
+
+
