@@ -148,7 +148,8 @@ python run_all.py
 
 ### 4. 광고 영상 시청
 - sample 광고 영상 링크
-    - 
+    - https://www.youtube.com/watch?v=FvDr924FgPQ
+    - https://www.youtube.com/watch?v=voEeBgSMb1Q
 
 ---
 
