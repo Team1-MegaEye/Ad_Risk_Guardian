@@ -131,7 +131,7 @@ python -m venv venv
 
 3. 패키지 설치
 ```
-pip install --upgrade pip
+# pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
