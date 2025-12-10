@@ -105,11 +105,8 @@ Ad_Risk_Guardian/
 
 #### 구축 환경
 - video - spyder
-  <img width="200" height="50" alt="image" src="https://github.com/user-attachments/assets/6ba829f2-de29-4974-9988-de330617d5cc" />
 - text - Google Colab
-  <img width="200" height="50" alt="image" src="https://github.com/user-attachments/assets/73546d06-ae13-46a9-a111-141783916c7e" />
 - extensions/backend - VScode
-  <img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/17ea4cf1-e04e-47e5-9428-bfd5576d9f3c" />
 
 ---
 
