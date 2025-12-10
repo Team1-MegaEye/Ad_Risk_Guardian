@@ -85,7 +85,7 @@ def extract_frames(video_path: str, output_dir: str, num_frames: int = 10) -> Li
 # ============================================
 
 # OpenAI Whisper API 클라이언트 생성
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="YOUR_OPEN_API_KEY")
 
 def extract_audio(video_path, output_audio_path=None, audio_format="mp3", whisper_model="whisper-1"):
     """
