@@ -94,6 +94,9 @@ Ad_Risk_Guardian/
 ### 참고 사항
 #### text 
 *  pipeline/text/preprocessing.ipynb (Preview ERROR) ★ 로컬 환경에서는 정상적으로 실행됨
+*  pipeline/text/experiments/learning_rate(3e_5),weight_decay(0_1),드롭아웃.ipynb ★ 로컬 환경에서는 정상적으로 실행됨
+*  pipeline/text/experiments/learning_rate(5e_4).ipynb ★ 로컬 환경에서는 정상적으로 실행됨
+*  pipeline/text/experiments/learning_rate(5e_4)_드롭아웃.ipynb★ 로컬 환경에서는 정상적으로 실행됨
 *  가중치 다운로드 링크   https://drive.google.com/drive/folders/1h_Lur4wJhcikdbL8YuFGBozlp4koktQG?usp=sharing
 
 #### 환경
